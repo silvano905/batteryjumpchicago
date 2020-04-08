@@ -9,8 +9,6 @@ urlpatterns = [
     path('', views.home_view, name='home'),
     path('thankyou/', views.request_services, name='thankyou'),
     path('sitemap.xml', views.site_map, name='sitemap'),
-    path('spanish/', views.spanish_jump_start, name='spanish_jump'),
-
     path('robots.txt', TemplateView.as_view(template_name="jump_app/robots.txt", content_type="text/plain"),
          name="robots_file")
 

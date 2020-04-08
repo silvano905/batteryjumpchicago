@@ -7,18 +7,6 @@ def home_view(request):
     return render(request, 'jump_app/home.html')
 
 
-def dead_battery(request):
-    return render(request, 'jump_app/car_jump_start.html')
-
-
-def spanish_jump_start(request):
-    return render(request, 'jump_app/spanish.html')
-
-
-# def car_not_starting(request):
-#     return render(request, 'jump_app/car_jump_start.html')
-
-
 def site_map(request):
     return render(request, 'jump_app/sitemap.xml', content_type='text/xml')
 

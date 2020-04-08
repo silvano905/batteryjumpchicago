@@ -100,18 +100,59 @@
 
 
 
-<form>
-  <div class="form-group">
-    <label for="formGroupExampleInput">Enter Your Location</label>
-    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="address">
-  </div>
-  <div class="form-group">
-    <label for="formGroupExampleInput2">Enter Phone Number</label>
-    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Phone to Contact You">
-  </div>
+{#form#}
+    <div style="text-align:center" class="container">
 
-<button type="submit" class="btn btn-primary">Get Jump Now</button>
-</form>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+
+
+                <form action="{% url 'jump:thankyou'%}" method="post">
+                            {% csrf_token %}
+                  <div class="form-row">
+                    <div class="col-lg-6 col-12" style="margin-top: 10px">
+                        <input type="text" name="manual_address" class="form-control" value="" id="add_manual_address" placeholder="Enter your location" >
+                        <small id="emailHelp" class="form-text text-muted">Name of street or complete address</small>
+                    </div>
+                    <div class="col-lg-6 col-12" style="margin-top: 10px">
+                        <input type="text" required name="phone" placeholder="Enter your phone number" id="phone" class="form-control">
+                        <small id="emailHelp2" class="form-text text-muted">Phone number to contact you</small>
+                    </div>
+
+                  </div>
+
+                    <button type="submit" class="btn btn-primary" id="request" style="margin: 5px">GET JUMP_START NOW</button>
+                </form>
+
+
+        <hr style="color: #0a13ff; background-color: #0a13ff">
+
+
+                <div style="margin-top: 10px; text-align: center">
+                    <div class="row" style="margin-bottom: -30px">
+                        <div class="col-lg-6 col-6">
+                            <a  id="mesms" href="sms:+17085489664"><img src="https://chicagocarhelp.s3.us-east-2.amazonaws.com/jsc_sms-sAsset+1.png" alt="Jump Start Service Chicago IL" style="width: 39px; height: auto; margin-top: 10px"></a>
+                            <p>Send Text Message</p>
+                            <br>
+
+                        </div>
+                        <div class="col-lg-6 col-6">
+                            <a id="mephone" href="tel:+17085489664"><img src="https://chicagocarhelp.s3.us-east-2.amazonaws.com/jsc_phooneAsset+1.png" alt="Jump Start Service Chicago IL" style="width: 39px; height: auto; margin-top: 10px"></a>
+                            <p>Click to Call</p>
+                            <br>
+                        </div>
+                    </div>
+
+                                  <div style="margin-top: 10px">
+                    <a href="https://app.acuityscheduling.com/schedule.php?owner=18280216" style="background-color: #71ffcb;color: #000000;padding: 8px 14px;text-align: center;text-decoration: none;display: inline-block;">Make Appoinment</a>
+              </div>
+
+                </div>
+          </div>
+        </div>
+    </div>
+
+
 
 
 
@@ -152,60 +193,7 @@
     <hr style="color: yellow; background-color: yellow">
 
 
-{#form#}
-    <div style="text-align:center" class="container">
 
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-              <div align="center" style="margin-top: -30px; margin-bottom: 20px">
-                <h3 class="main">Enter your phone number and location and click the blue button to request a jump-start</h3>
-              </div>
-
-
-
-                <form action="{% url 'jump:thankyou'%}" method="post">
-                            {% csrf_token %}
-                  <div class="form-row">
-                    <div class="col-lg-6 col-12" style="margin-top: 10px">
-                        <input type="text" name="manual_address" class="form-control" value="" id="add_manual_address" placeholder="Enter your location" >
-                        <small id="emailHelp" class="form-text text-muted">Name of street or complete address</small>
-                    </div>
-                    <div class="col-lg-6 col-12" style="margin-top: 10px">
-                        <input type="text" required name="phone" placeholder="Enter your phone number" id="phone" class="form-control">
-                        <small id="emailHelp2" class="form-text text-muted">Phone number to contact you</small>
-                    </div>
-
-                  </div>
-
-                    <button type="submit" class="btn btn-primary" id="request" style="margin: 5px">GET HELP NOW</button>
-                </form>
-
-              <div style="margin-top: 10px">
-                    <a href="https://app.acuityscheduling.com/schedule.php?owner=18280216" style="background-color: #71ffcb;color: #000000;padding: 8px 14px;text-align: center;text-decoration: none;display: inline-block;">Make Appoinment</a>
-              </div>
-
-
-                <div align="center" style="margin-top: 10px">
-                    <small style="color: crimson">Please use the form above for better service</small>
-                    <div class="row" style="margin-bottom: -30px">
-                        <div class="col-lg-6 col-6">
-                            <a  id="mesms" href="sms:+17085489664"><img src="https://chicagocarhelp.s3.us-east-2.amazonaws.com/jsc_sms-sAsset+1.png" alt="Jump Start Service Chicago IL" style="width: 39px; height: auto; margin-top: 10px"></a>
-                            <p>Send Text Message</p>
-                            <br>
-
-                        </div>
-                        <div class="col-lg-6 col-6">
-                            <a id="mephone" href="tel:+17085489664"><img src="https://chicagocarhelp.s3.us-east-2.amazonaws.com/jsc_phooneAsset+1.png" alt="Jump Start Service Chicago IL" style="width: 39px; height: auto; margin-top: 10px"></a>
-                            <p>Click to Call</p>
-                            <br>
-                            <p style="margin-top: -15px">708-548-9664</p>
-                            <br>
-                        </div>
-                    </div>
-                </div>
-          </div>
-        </div>
-    </div>
 
 
 

@@ -500,7 +500,7 @@
 <script>
 $(document).ready(function(){
     $('#sell').change(function() {
-        let value = $('#sell :selected').val();
+        var value = $('#sell :selected').val();
         $('#total').text(70+(29*value));
   });
 });

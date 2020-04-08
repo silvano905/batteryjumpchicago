@@ -28,7 +28,7 @@ SECRET_KEY = '7!b!#h!rf%h!vo7baw%jcydrgsaj3n)156w=u(#cocz9p@lxg0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['batteryjumpchicago.pythonanywhere.com']
+ALLOWED_HOSTS = ['batteryjumpchicago.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition

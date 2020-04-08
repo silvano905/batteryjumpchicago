@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f561cc0a-61df-4685-9f83-285be386f7cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jump_app/templates/jump_app/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/jump_app/templates/jump_app/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jumpstartservice/.idea/jumpstartservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../jumpstartservice/.idea/jumpstartservice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jumpstartservice/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../jumpstartservice/db.sqlite3" afterDir="false" />
@@ -121,7 +122,7 @@
       <updated>1586216835510</updated>
       <workItem from="1586216956441" duration="6988000" />
       <workItem from="1586269469460" duration="18146000" />
-      <workItem from="1586299961724" duration="13239000" />
+      <workItem from="1586299961724" duration="14705000" />
     </task>
     <servers />
   </component>

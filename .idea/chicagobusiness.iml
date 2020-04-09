@@ -19,6 +19,7 @@
     <orderEntry type="jdk" jdkName="Python 3.6 (chicagobusiness)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="youtube" />
+    <orderEntry type="module" module-name="car_helper" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />

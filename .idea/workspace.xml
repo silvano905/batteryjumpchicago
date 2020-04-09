@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f561cc0a-61df-4685-9f83-285be386f7cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jump_app/templates/jump_app/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/jump_app/templates/jump_app/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jumpstartservice/.idea/jumpstartservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../jumpstartservice/.idea/jumpstartservice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jumpstartservice/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../jumpstartservice/db.sqlite3" afterDir="false" />
@@ -19,6 +20,7 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -45,6 +47,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../jumpstartservice" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -132,10 +135,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586289990407">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586392143187">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1586289990407" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1586392143187" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586222799383">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

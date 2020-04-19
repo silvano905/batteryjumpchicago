@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f561cc0a-61df-4685-9f83-285be386f7cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jump_app/templates/jump_app/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/jump_app/templates/jump_app/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../silvano/django/car_helper/.idea/car_helper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../silvano/django/car_helper/.idea/car_helper.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../silvano/django/car_helper/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../silvano/django/car_helper/db.sqlite3" afterDir="false" />
@@ -128,7 +129,7 @@
       <workItem from="1586299961724" duration="15237000" />
       <workItem from="1586366206461" duration="2194000" />
       <workItem from="1586446737955" duration="1934000" />
-      <workItem from="1587309106489" duration="2091000" />
+      <workItem from="1587309106489" duration="3983000" />
     </task>
     <servers />
   </component>
